@@ -1,0 +1,28 @@
+
+
+.Block{
+  width: 150px;
+  height: 150px;
+  border: 5px solid black ;
+  background-size: cover;
+  display: inline-block;
+}
+
+.mark1{
+  background-image: url('assets/zero.png');
+}
+
+.mark2{
+  background-image: url('assets/cross.png');
+}
+
+@media only screen and (max-width: 535px){
+  .Block{
+    width: 95px;
+    height: 95px;
+    border: 5px solid black ;
+    background-size: cover;
+    display: inline-block;
+  }
+  
+}
